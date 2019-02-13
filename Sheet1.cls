@@ -14,7 +14,7 @@ Private Sub CommandButton1_Click()
 Dim i As Integer
 
 For i = 1 To 6
-    Cells(i, 1).Value = 100
+    Cells(i, 1).Value = 200
 Next i
 
 End Sub
