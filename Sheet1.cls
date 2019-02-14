@@ -15,7 +15,12 @@ Dim i As Integer
 
 For i = 1 To 6
     Cells(i, 1).Value = 100
-    Cells(i, 2).Value = 200
+    Cells(i, 1).Value = 200
+    Cells(i, 1).Value = 300
 Next i
+
+End Sub
+
+Private Sub CommandButton2_Click()
 
 End Sub
